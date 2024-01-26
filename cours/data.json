@@ -1,0 +1,25 @@
+{
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.codeActionsOnSave": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.fontFamily": "Cascadia Code",
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2
+}
