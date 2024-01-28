@@ -76,3 +76,6 @@ document.querySelector("form").addEventListener("submit", () => {
 //     console.log("data envoyée")
 //   );
 // });
+
+// Asynshrone
+
