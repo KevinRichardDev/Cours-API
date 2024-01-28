@@ -87,8 +87,16 @@ setTimeout(() => {
 // fetch('mon lien').then((res) => res)
 
 // async/await
-function fetchData() {
-  fetch('monlien')
+// async function fetchData() {
+//   await fetch('monlien')
+//   // attend que le await soit éxécuté avant de faire la suite
 
-  executeFonction();
+//   await executeFonction();
+//   await console.log();
+//   await console.log();
+//   await console.log();
+// }
+
+const fetchData2 = async () => {
+
 }
