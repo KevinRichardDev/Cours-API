@@ -97,6 +97,7 @@ setTimeout(() => {
 //   await console.log();
 // }
 
+// Pour une fonction fléché le async doit toujours être avec le paramètre.
 const fetchData2 = async () => {
 
 }
