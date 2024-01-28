@@ -27,7 +27,14 @@ fetch("data.json")
   .then((res) => res.json())
   // .then((data) => console.log(data));
 
+const myHeaders = new Headers();
+
 const init = {
   method: "GET",
-
+  headers: myHeaders,
+  mode: "cors",
 }
+
+// fetch("data.json", init).then((res) => console.log(res));
+
+// CRUD => Create (POST), read (GET), update (PUT), Delete (DELETE)
