@@ -79,3 +79,16 @@ document.querySelector("form").addEventListener("submit", () => {
 
 // Asynshrone
 
+setTimeout(() => {
+  // console.log("test");
+}, 2000);
+
+//Promise
+// fetch('mon lien').then((res) => res)
+
+// async/await
+function fetchData() {
+  fetch('monlien')
+
+  executeFonction();
+}
