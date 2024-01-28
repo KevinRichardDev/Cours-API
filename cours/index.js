@@ -25,4 +25,9 @@
 // pour les fichiers .json
 fetch("data.json")
   .then((res) => res.json())
-  .then((data) => console.log(data));
+  // .then((data) => console.log(data));
+
+const init = {
+  method: "GET",
+
+}
