@@ -111,5 +111,7 @@ const fetchData2 = async () => {
 
 fetch("data.json").then((res) => res.json()).then((data) => {
   // Stringify => convertit en JSON
-  (JSON.stringify(data));
+  let settings = JSON.stringify(data);
+  // Parse => transform json en objet js
+  // console.log(JSON.parse(settings));
 });
