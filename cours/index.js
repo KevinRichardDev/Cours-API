@@ -60,7 +60,9 @@ document.querySelector("form").addEventListener("submit", () => {
   );
 });
 
+//-------
 // DELETE
+//-------
 
 // const init2 = {
 //   method: "DELETE",
@@ -105,7 +107,10 @@ const fetchData2 = async () => {
   executeFonction();
 };
 
+//-------
 // LE JSON
+//-------
+
 
 // Méthode .json() => méthode qui s'auto-résout en renvoyant le Body de la requête.
 
@@ -115,3 +120,15 @@ fetch("data.json").then((res) => res.json()).then((data) => {
   // Parse => transform json en objet js
   // console.log(JSON.parse(settings));
 });
+
+//-------
+// Web API
+//-------
+
+
+// CLIENT STORAGE
+//-------
+
+// Local Storage
+localStorage.data = "Je stock la data";
+document.body.textContent = localStorage.data;
