@@ -107,3 +107,9 @@ const fetchData2 = async () => {
 
 // LE JSON
 
+// Méthode .json() => méthode qui s'auto-résout en renvoyant le Body de la requête.
+
+fetch("data.json").then((res) => res.json()).then((data) => {
+  // Stringify => convertit en JSON
+  (JSON.stringify(data));
+});
