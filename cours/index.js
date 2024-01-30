@@ -131,4 +131,22 @@ fetch("data.json").then((res) => res.json()).then((data) => {
 
 // Local Storage
 localStorage.data = "Je stock la data";
-document.body.textContent = localStorage.data;
+// document.body.textContent = localStorage.data;
+
+localStorage.removeItem("data");
+
+const obj = {
+  name: "Denis",
+  age: 22,
+}
+
+
+// WARNING localStorage n'accepte que les chaines de caractère
+// Il faut donc convertir en chaîne de caractère.
+
+// localStorage.user = "Francis";
+localStorage.user = JSON.stringify(obj);
+
+// console.log(JSON.parse(localStorage.user));
+
+//Session Storage
