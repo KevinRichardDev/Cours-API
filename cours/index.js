@@ -99,5 +99,11 @@ setTimeout(() => {
 
 // Pour une fonction fléché le async doit toujours être avec le paramètre.
 const fetchData2 = async () => {
+  await fetch("monlien");
+  //attend que le await soit exécuté avant de faire la suite
 
-}
+  executeFonction();
+};
+
+// LE JSON
+
