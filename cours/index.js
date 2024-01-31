@@ -149,4 +149,13 @@ localStorage.user = JSON.stringify(obj);
 
 // console.log(JSON.parse(localStorage.user));
 
+//--------------
 //Session Storage
+sessionStorage.dataSettings = "55px";
+// console.log(sessionStorage.dataSettings);
+// pour supprimer
+// sessionStorage.clear();
+
+//--------
+// Cookies
+
