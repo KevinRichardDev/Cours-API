@@ -158,4 +158,7 @@ sessionStorage.dataSettings = "55px";
 
 //--------
 // Cookies
+document.cookie = "username=KevinRichard"
+
+//Bonne pratique
 
