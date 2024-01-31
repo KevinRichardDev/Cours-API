@@ -158,7 +158,7 @@ sessionStorage.dataSettings = "55px";
 
 //--------
 // Cookies
-document.cookie = "username=KevinRichard"
+document.cookie = "username=KevinRichard";
 
 //Bonne pratique
-
+document.cookie = "pseudo=FS;path=/;max-age=450000; secure; samesite";
